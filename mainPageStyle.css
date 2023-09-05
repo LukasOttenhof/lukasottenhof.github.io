@@ -226,8 +226,9 @@ img {
 .card a:hover .card-actions .button {
     opacity: 1;   
     transition: opacity 1s;
-
+    
 }
+
 
 
 .container {
@@ -274,6 +275,12 @@ img {
 .card-actions {
 	padding: 0.5em 1.4em;
 	font-size: 90%;       
+}
+
+.projImg{
+    
+    height: 18em;
+
 }
 
 /* end of projects */
