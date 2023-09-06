@@ -207,6 +207,10 @@ input[type="submit"]:hover {
     padding: 0 1em;
 }
 
+.projects{
+    margin: 2%;
+}
+
 figure {
     margin: 0;
     padding: 0;
