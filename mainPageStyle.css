@@ -85,19 +85,6 @@ html, body{
 
 
 /* for main page */
-.contentMain{
-    display: grid;
-    grid-template-columns: 400px 400px;
-    grid-row: 400px 400px;
-    margin: auto;
-    text-align: center;
-    width: 60%;
-    max-width: 100%;
-    
-}
-
-
-
 
 
 .contentMain {
@@ -326,7 +313,37 @@ img {
 @media only screen and (max-width:480px)
 {
     
-
+    .contentMain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto; /* Define the rows for each div */
+        gap: 20px;
+        margin: auto;
+        width: 80%;
+        max-width: 1200px; /* Maximum width for larger screens */
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px; /* Rounded corners */
+      }
+      
+      #about {
+    
+        grid-row: 1;
+      }
+      
+      #pfpMain {
+      
+        grid-row: 2;
+      }
+      
+      #educationDiv {
+       
+        grid-row: 3;
+      }
+      #resumeDiv {
+       
+        grid-row: 4;
+      }
     .card {
         width: 100%;
     }
@@ -339,4 +356,5 @@ and (max-width: 768px)
     .card {
        width: 48%; 
     }
+    
 }
