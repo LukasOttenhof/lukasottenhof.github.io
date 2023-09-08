@@ -67,7 +67,6 @@ html, body{
     color: #FF3D00;
 }
 
-
 .active {
     position: relative;
     padding: 0 10px; 
@@ -143,7 +142,7 @@ html, body{
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    margin-top: 80px; 
+    margin-top: 5%; /* 80px */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
