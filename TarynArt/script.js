@@ -1,12 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
     const mobileMenuButton = document.getElementById("mobile-menu-button");
     const mobileMenu = document.getElementById("mobile-menu");
+    
 
     mobileMenuButton.addEventListener("click", function () {
         mobileMenu.classList.toggle("active");
     });
 
-    // Add event listener to close the menu when clicking outside of it
+  
+
+    // Add event listener to close the menu when clicking outside of it or on a link
     document.addEventListener("click", function (event) {
         if (!mobileMenu.contains(event.target) && event.target !== mobileMenuButton) {
             mobileMenu.classList.remove("active");
