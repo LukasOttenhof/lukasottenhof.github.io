@@ -1,8 +1,8 @@
 document.getElementById("mobile-menu-button").addEventListener("click", function () {
     var mobileMenu = document.getElementById("mobile-menu");
-    if (mobileMenu.classList.contains("active")) {
-        mobileMenu.classList.remove("active");
+    if (mobileMenu.style.display === "block") {
+        mobileMenu.style.display = "none";
     } else {
-        mobileMenu.classList.add("active");
+        mobileMenu.style.display = "block";
     }
 });
