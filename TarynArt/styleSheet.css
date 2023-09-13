@@ -321,6 +321,12 @@ footer {
     font-weight: bold;
 }
 .menu-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px; /* Increase the padding for a larger clickable area */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size for better visibility */
+    color: #fff;
     margin-left: 11%;
     display: none; /* hide the mobile menu at first */
 }
