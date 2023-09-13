@@ -1,6 +1,6 @@
 document.getElementById("mobile-menu-button").addEventListener("click", function () {
     var mobileMenu = document.getElementById("mobile-menu");
-    if (mobileMenu.style.display === "block") {
+    if (mobileMenu.style.display === "block" || mobileMenu.style.display === "") {
         mobileMenu.style.display = "none";
     } else {
         mobileMenu.style.display = "block";
