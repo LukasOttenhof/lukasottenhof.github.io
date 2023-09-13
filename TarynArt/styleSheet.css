@@ -291,7 +291,7 @@ footer {
 
 /* Mobile Menu Styles */
 .mobile-menu {
-    display: none;
+    display: none; /* Set initial display to "none" */
     background-color: #333;
     position: absolute;
     top: 60px; /* Adjust the top position to align with your navbar */
