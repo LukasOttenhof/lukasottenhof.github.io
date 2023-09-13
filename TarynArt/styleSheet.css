@@ -296,9 +296,10 @@ footer {
     position: absolute;
     top: 60px; /* Adjust the top position to align with your navbar */
     right: 0;
-    width: 100%;
+    width: 15%;
+    margin-right: 80%;
     text-align: center;
-    z-index: 1000;
+    
 }
 
 .mobile-menu.active {
@@ -319,7 +320,10 @@ footer {
     color: #fff;
     font-weight: bold;
 }
-
+.menu-button {
+    margin-left: 11%;
+    display: none; /* hide the mobile menu at first */
+}
 
 
 /* Media query for larger screens */
@@ -343,6 +347,23 @@ footer {
         body {
             font-size: 14px; 
         }
+        
+    }
+
+    @media screen and (max-width: 480px) {
+        .menu-button {
+            display: block; /* Show the button on small screens */
+        }
+    
+        /* Show the mobile menu when the button is clicked */
+        .mobile-menu.active {
+            display: block;
+        }
+    
+        /* Hide the desktop navigation links on small screens */
+        #navList {
+            display: none;
+        }
     }
     
 /* styles for tablet screens */
@@ -352,14 +373,6 @@ and (max-width: 768px)
     .painting {
        width: 48%; 
     }
-    .menu-button {
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-    .desktop-menu {
-        display: none; /* Hide the desktop menu on small screens */
-    }
+    
     
 }
