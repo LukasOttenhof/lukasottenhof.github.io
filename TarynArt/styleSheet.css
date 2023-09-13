@@ -289,6 +289,49 @@ footer {
 }
 
 
+/* Mobile Menu Styles */
+.mobile-menu {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    top: 50px; /* Adjust the top position to align with your navbar */
+    right: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mobile-menu li {
+    padding: 10px 0;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Adjust the button's style */
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    display: none; /* Initially hide the button for larger screens */
+}
+
+
+
 /* Media query for larger screens */
 @media screen and (min-width: 1400px) {
     body {
@@ -318,6 +361,15 @@ and (max-width: 768px)
 {
     .painting {
        width: 48%; 
+    }
+    .menu-button {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .desktop-menu {
+        display: none; /* Hide the desktop menu on small screens */
     }
     
 }
