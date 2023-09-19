@@ -327,7 +327,7 @@ footer {
     cursor: pointer;
     font-size: 16px; /* Adjust font size for better visibility */
     color: #fff;
-    margin-left: 7.5%;
+    margin-left: 5%;
     display: none; /* hide the mobile menu at first */
 }
 
