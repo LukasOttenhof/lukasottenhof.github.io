@@ -16,7 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh; /* Makes the body take the full viewport height */
@@ -104,6 +104,7 @@ html, body{
     text-align: left;
     padding: 20px;
 }
+
 
 .center {
     display: flex;
